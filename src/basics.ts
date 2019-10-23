@@ -6,4 +6,3 @@ const message : string = 'execution started at: ' + hour + ':' + minute + ':' + 
 //
 const logger = new Logger(document.querySelector('#outputDiv'));
 logger.Append2Div(message);
-logger.Append2Div('pita');
