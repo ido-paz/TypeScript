@@ -6,3 +6,5 @@ const message : string = "execution started at: " + hour + ":" + minute + ":" + 
 //
 const logger :Logger = new Logger(document.querySelector("#outputDiv"));
 logger.Append2Div(message);
+logger.AppendLine2Div(message);
+
