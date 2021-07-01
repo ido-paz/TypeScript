@@ -1,0 +1,13 @@
+https://www.typescriptlang.org/
+☐ basic types
+☐ function parameters and return value
+oop:
+☐ classes
+    ☐ static method or properties - single copy of member
+    ☐ readonly - allows only to get a field value that can be set on definition or on the constructor
+enacapsulation :
+    ☐ get ,set - field accessor
+    ☐ members accessors private (instance only) , protected (default value) (children) , public (everybody) have access
+☐ inharitance - extends ,is a child of -  drived class need to call super
+☐ interfaces - implements -matching the shape -  has all memebers and implementation
+☐ generics - <T> static typing for a dynamic type
