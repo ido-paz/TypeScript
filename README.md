@@ -1,2 +1,0 @@
-# TypeScript
-practicing type script
