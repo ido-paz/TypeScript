@@ -1,9 +1,9 @@
-var MAAM = 1.17;
-var hasMoney = true;
+const MAAM = 1.17;
+let hasMoney = true;
 var message = "good evening";
-var changable = 'a';
-var names = ['Ido', 'Yarden', 'Moshe', 'Shani'];
-var today = new Date();
+let changable = 'a';
+let names = ['Ido', 'Yarden', 'Moshe', 'Shani'];
+let today = new Date();
 //
 var Color;
 (function (Color) {
@@ -15,7 +15,7 @@ var Languages;
     Languages["he"] = "he";
     Languages["en"] = "en";
 })(Languages || (Languages = {}));
-var c = Color.red;
+let c = Color.red;
 //
 changable = 1;
 //

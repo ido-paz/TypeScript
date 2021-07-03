@@ -1,9 +1,8 @@
-var Car = /** @class */ (function () {
-    function Car() {
+class Car {
+    constructor() {
         this.wheeles = 4;
     }
-    Car.prototype.getDetails = function () {
+    getDetails() {
         return { wheeles: this.wheeles, brand: this.brand };
-    };
-    return Car;
-}());
+    }
+}

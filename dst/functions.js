@@ -1,5 +1,5 @@
 function exists(array, value) {
-    return array.some(function (v) {
+    return array.some(v => {
         return v === value;
     });
 }

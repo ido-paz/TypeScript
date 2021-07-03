@@ -1,14 +1,11 @@
 //
-var Player = /** @class */ (function () {
-    function Player() {
+class Player {
+    //
+    play() {
+        console.log(`${this.model} started playing`);
     }
     //
-    Player.prototype.play = function () {
-        console.log(this.model + " started playing");
-    };
-    //
-    Player.prototype.stop = function () {
-        console.log(this.model + " stopped playing");
-    };
-    return Player;
-}());
+    stop() {
+        console.log(`${this.model} stopped playing`);
+    }
+}
