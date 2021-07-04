@@ -10,7 +10,17 @@
     <script src='./dst/inharitance.js'></script>
     <script src='./dst/interfaces.js'></script>
     <script src='./dst/generics.js'></script>
-    <script src='./dst/export.js'></script>
+    <script type="module">
+        import {makePitza,makeEgg,makeSalad,makeTost} from './dst/export.js';
+        import {makeDinner} from './dst/importExport.js';
+        //
+        // makePitza();
+        // makeEgg();
+        // makeSalad();
+        // makeTost();
+        //
+        makeDinner();
+    </script>
 </head>
 <body>
     
