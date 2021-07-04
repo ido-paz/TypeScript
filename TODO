@@ -8,6 +8,11 @@ oop:
 enacapsulation :
     ☐ get ,set - field accessor
     ☐ members accessors private (instance only) , protected (default value) (children) , public (everybody) have access
-☐ inharitance - extends ,is a child of -  drived class need to call super
-☐ interfaces - implements -matching the shape -  has all memebers and implementation
+inharitance:
+    ☐ inharitance - extends ,is a child of -  drived class need to call super
+    ☐ interfaces - implements -matching the shape -  has all memebers and implementation
+patterns:
 ☐ generics - <T> static typing for a dynamic type
+modules:
+☐ import export
+
