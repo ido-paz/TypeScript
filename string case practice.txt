@@ -1,0 +1,8 @@
+Bob is a lackadaisical teenager. In conversation, his responses are very limited.
+if you say X then:
+1. Bob answers 'Sure.' if you ask him a question.
+2. He answers 'Whoa, chill out!' if you yell at him.
+3. He retorts 'Calm down, I know what I'm doing!' if you yell a question at him.
+4. He says 'Fine. Be that way!' if you address him without actually saying anything.
+5.He answers 'Whatever.' to anything else.
+

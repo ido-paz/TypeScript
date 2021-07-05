@@ -1,0 +1,9 @@
+*Use strong types for variables,parameters,return values
+1.Create a function that returns true if [name] parameter value exists in one of the array items
+2.Create a User class that have username and password as string , id as number properties, 
+	a.Can initialized threw the constructor
+	b Has a function that print the details of the user
+	c.Has a static user created counter
+	d.the id is readonly
+3.Create an Admin class that inharits from User class and has shutdownSystem method 
+4.Create a generic Collection class that enables adding/removing/finding item for/to the collection, retrieving all items, the items are private 

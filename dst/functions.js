@@ -8,3 +8,4 @@ function logMessage(message) {
     console.log(message);
 }
 //
+let b = exists(['pi', 'aaaa'], "fdsfds");

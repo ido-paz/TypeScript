@@ -3,7 +3,7 @@ class Person{
     readonly id:number;
     firstName:string;
     lastName:string;
-    constructor(firstName,lastName){
+    constructor(firstName: string,lastName: string){
         Person.count++;
         this.id =Person.count;
         this.firstName=firstName;

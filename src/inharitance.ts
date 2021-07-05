@@ -30,3 +30,4 @@ class BankAccount extends Account {
     return { id: this.id, name: this.name, balance: this.balance };
   }
 }
+

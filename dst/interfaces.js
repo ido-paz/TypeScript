@@ -1,3 +1,6 @@
+checkUser({ name: 'a', age: 14 });
+function checkUser(user) {
+}
 //
 class Player {
     //
