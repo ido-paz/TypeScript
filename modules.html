@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Modules demo</title>  
+    <script type="module">
+      import makeCoffee, {
+        makePitza,
+        makeEgg,
+        makeSalad,
+        makeTost,
+      } from "./dst/export.js";
+      makePitza();
+      makeEgg();
+      makeSalad();
+      makeTost();
+      makeCoffee();
+    </script>
+    <!-- <script type="module">
+      //imports all exported items and refernce them using namespace
+      import * as Make from "./dst/export.js";
+      Make.makePitza();
+      Make.makeEgg();
+      Make.makeSalad();
+      Make.makeTost();
+      Make.default();
+    </script>
+
+    <script type="module">
+      //imports a module that imports internaly other module
+      import { makeDinner } from "./dst/importExport.js";
+      makeDinner();
+    </script> -->
+  </head>
+  <body></body>
+</html>
