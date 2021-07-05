@@ -1,7 +1,6 @@
 class Collection {
     constructor() {
         this.items = [];
-        //
     }
     add(item) {
         this.items.push(item);
@@ -18,6 +17,10 @@ class Collection {
     //
     find(item) {
         return this.items.filter(i => i == item);
+    }
+    //
+    get() {
+        return this.items;
     }
     //
     printAll() {

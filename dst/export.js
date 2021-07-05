@@ -1,12 +1,19 @@
 export function makePitza() {
-    console.log(`${new Date()} : making pitza`);
+    log("making pitza");
 }
 export function makeEgg() {
-    console.log(`${new Date()} : making egg`);
+    log("making egg");
 }
 export function makeSalad() {
-    console.log(`${new Date()} : making salad`);
+    log("making salad");
 }
 export function makeTost() {
-    console.log(`${new Date()} : making tost`);
+    log("making tost");
+}
+export default function makeCoffee() {
+    log("making coffee");
+}
+//
+function log(message) {
+    console.log(`${new Date()} : ${message}`);
 }

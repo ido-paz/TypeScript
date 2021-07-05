@@ -13,14 +13,17 @@ class Collection<T> {
     return null;
   }
   //
-  find(item){
+  find(item):T[]{
       return this.items.filter(i=>i==item);
   }
   //
-  printAll() {
+  get():T[]{
+    return this.items;
+  }
+  //
+  printAll():void {
     this.items.forEach((i) => {
       console.log(i);
     });
   }
-  //
 }

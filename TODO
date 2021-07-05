@@ -1,18 +1,22 @@
 https://www.typescriptlang.org/
-☐ basic types
-☐ function parameters and return value
-oop:
-☐ classes
+☐ Basic Data types
+    ☐ function parameters and return value
+☐ Classes
+    ☐ get ,set - field accessor
     ☐ static method or properties - single copy of member
     ☐ readonly - allows only to get a field value that can be set on definition or on the constructor
-enacapsulation :
-    ☐ get ,set - field accessor
     ☐ members accessors private (instance only) , protected (default value) (children) , public (everybody) have access
-inharitance:
     ☐ inharitance - extends ,is a child of -  drived class need to call super
-    ☐ interfaces - implements -matching the shape -  has all memebers and implementation
-patterns:
-☐ generics - <T> static typing for a dynamic type
-modules:
-☐ import export
+☐ Interfaces - implements -matching the shape -  has all memebers and implementation
+☐ Generics - <T> static typing for a dynamic type
+☐ Modules - 1 module 1 file
+     ☐ export - Any declaration (such as a variable, function, class, type alias, 
+                 or interface) can be exported by adding the export keyword.
+     ☐ import
+☐ Namespaces - 1 namespace can span at several files
+     be  want to have some kind of organization scheme so that we can keep track 
+     of our types and not worry about name collisions with other objects. 
+     Instead of putting lots of different names into the global namespace, 
+     let’s wrap up our objects into a namespace.
+☐ Decorators - Decorators provide a way to add both annotations and a meta-programming syntax for class declarations and members. Decorators are a stage 2 proposal for JavaScript and are available as an experimental feature of TypeScript.
 

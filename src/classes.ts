@@ -1,10 +1,16 @@
 class Person{
-    id:number;
+    private static count:number=0;
+    readonly id:number;
     firstName:string;
     lastName:string;
-    constructor(id,firstName,lastName){
-        this.id =id;
+    constructor(firstName,lastName){
+        Person.count++;
+        this.id =Person.count;
         this.firstName=firstName;
         this.lastName = lastName;
+    }
+    //
+    printDetails(){
+        console.log(this.id,this.firstName,this.lastName);
     }
 }
