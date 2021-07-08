@@ -1,5 +1,6 @@
 https://www.typescriptlang.org/
 https://typescript-exercises.github.io/
+data structure:
 ☐ Basic Data types
     ☐ function parameters and return value
 ☐ Classes
@@ -9,6 +10,9 @@ https://typescript-exercises.github.io/
     ☐ members accessors private (instance only) , protected (default value) (children) , public (everybody) have access
     ☐ inharitance - extends ,is a child of -  drived class need to call super
 ☐ Interfaces - implements -matching the shape -  has all memebers and implementation
+☐ Union types - enable a variable or argument to accept specific types using | ( OR directive)
+☐ Type checking - instance of for class instances , typeof for primitive,all types
+tempalates:
 ☐ Generics - <T> static typing for a dynamic type
 ☐ Modules - 1 module 1 file
      ☐ export - Any declaration (such as a variable, function, class, type alias, 
