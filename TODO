@@ -17,14 +17,17 @@ type validation,filtering:
 ☐ Type checking - instance of for class instances , typeof for primitive,all types
 tempalates:
 ☐ Generics - <T> static typing for a dynamic type
+code orginizing:
 ☐ Modules - 1 module 1 file
      ☐ export - Any declaration (such as a variable, function, class, type alias, 
                  or interface) can be exported by adding the export keyword.
      ☐ import
-☐ Namespaces - 1 namespace can span at several files
+☐ Namespaces -use to avoid naming collusions ,bundle related code under on namespace,taking code out of the global scope, 1 namespace can span at several files
      be  want to have some kind of organization scheme so that we can keep track 
      of our types and not worry about name collisions with other objects. 
      Instead of putting lots of different names into the global namespace, 
      let’s wrap up our objects into a namespace.
 ☐ Decorators - Decorators provide a way to add both annotations and a meta-programming syntax for class declarations and members. Decorators are a stage 2 proposal for JavaScript and are available as an experimental feature of TypeScript.
+using typescript in React:
+npx create-react-app Calcultor -template=typescript
 
