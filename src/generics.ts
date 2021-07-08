@@ -1,9 +1,9 @@
 class Collection<T> {
   private items: T[]=[];
-  add<T>(item) {
+  add(item:T) {
     this.items.push(item);
   }
-  remove(item): T {
+  remove(item:T): T {
     let index = this.items.indexOf(item);
     if (index > -1) {
       let foundItem = this.items[index];
@@ -13,7 +13,7 @@ class Collection<T> {
     return null;
   }
   //
-  find(item):T[]{
+  find(item:T):T[]{
       return this.items.filter(i=>i==item);
   }
   //
