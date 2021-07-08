@@ -6,11 +6,16 @@ interface IUser {
 interface IPlayer {
   model: string;
   play: Function;
-  stop: Function;
+  stop():void;
+  setModel(model:string):void
 }
 //
 class Player implements IPlayer {
   model: string;
+  //
+  setModel(model:string):void{
+      this.model = model;
+  }
   //
   play() {
     console.log(`${this.model} started playing`);
@@ -24,4 +29,8 @@ class Player implements IPlayer {
 function checkUser(user: IUser) {
   console.log(user);
 }
-checkUser({ name: "a", age: 14 });
+//demo's
+// let youtube = new Player();
+// youtube.setModel('youtube');
+// youtube.play();
+// checkUser({ name: "a", age: 14 });
