@@ -27,3 +27,9 @@ class Collection<T> {
     });
   }
 }
+//
+function clone<T>(value:T):T {
+  let str = JSON.stringify(value)
+  return JSON.parse(str);  
+}
+//

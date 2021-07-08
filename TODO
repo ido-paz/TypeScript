@@ -3,13 +3,16 @@ https://typescript-exercises.github.io/
 data structure:
 ☐ Basic Data types
     ☐ function parameters and return value
+custom types:
 ☐ Classes
     ☐ get ,set - field accessor
     ☐ static method or properties - single copy of member
     ☐ readonly - allows only to get a field value that can be set on definition or on the constructor
     ☐ members accessors private (instance only) , protected (default value) (children) , public (everybody) have access
     ☐ inharitance - extends ,is a child of -  drived class need to call super
-☐ Interfaces - implements -matching the shape -  has all memebers and implementation
+☐ Interfaces - contract that declares the members of the implementing type, implements -matching the shape -  has all members and implementation , is used only at design time
+☐ Enums
+type validation,filtering:
 ☐ Union types - enable a variable or argument to accept specific types using | ( OR directive)
 ☐ Type checking - instance of for class instances , typeof for primitive,all types
 tempalates:
