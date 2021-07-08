@@ -1,0 +1,13 @@
+export function one4Uone4me(name?: string): string {
+  let result: string
+  if(name === undefined) {
+    result = 'One for you, one for me.'
+  } else {
+    result = `One for ${name}, one for me.`
+  }
+  return result
+}
+
+console.clear()
+
+console.log(one4Uone4me('ido'));

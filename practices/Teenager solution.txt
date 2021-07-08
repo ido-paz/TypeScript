@@ -1,0 +1,26 @@
+class Teenager {
+  hear(message?: string) {
+    let isQuestion = false;
+
+    if (message===undefined || message.trim().length === 0) return "Fine. Be that way!"; // if no letters
+
+    const letters = message.split(""); // separate letters
+
+    if (letters[letters.length - 1] === "?") {
+      isQuestion = true;
+    }
+
+    if ((message === message.toUpperCase()) === true) {
+      if (isQuestion) return "Calm down, I know what I'm doing!"; // check if question
+      return "Whoa, chill out!";
+    }
+
+    return "Whatever.";
+  }
+}
+
+export default Teenager;
+
+let t = new Teenager();
+
+console.log(t.hear())

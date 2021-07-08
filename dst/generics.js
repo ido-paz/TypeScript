@@ -29,3 +29,9 @@ class Collection {
         });
     }
 }
+//
+function clone(value) {
+    let str = JSON.stringify(value);
+    return JSON.parse(str);
+}
+//
